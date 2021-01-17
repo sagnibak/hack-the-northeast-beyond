@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hack-the-northeast-beyond/static/css/main.071b106c.chunk.css",
+    "main.css": "/hack-the-northeast-beyond/static/css/main.a2d8f446.chunk.css",
     "main.js": "/hack-the-northeast-beyond/static/js/main.1a5557c6.chunk.js",
     "main.js.map": "/hack-the-northeast-beyond/static/js/main.1a5557c6.chunk.js.map",
     "runtime-main.js": "/hack-the-northeast-beyond/static/js/runtime-main.99e21fa1.js",
     "runtime-main.js.map": "/hack-the-northeast-beyond/static/js/runtime-main.99e21fa1.js.map",
-    "static/js/2.133e88ba.chunk.js": "/hack-the-northeast-beyond/static/js/2.133e88ba.chunk.js",
-    "static/js/2.133e88ba.chunk.js.map": "/hack-the-northeast-beyond/static/js/2.133e88ba.chunk.js.map",
+    "static/js/2.2b216fc1.chunk.js": "/hack-the-northeast-beyond/static/js/2.2b216fc1.chunk.js",
+    "static/js/2.2b216fc1.chunk.js.map": "/hack-the-northeast-beyond/static/js/2.2b216fc1.chunk.js.map",
     "index.html": "/hack-the-northeast-beyond/index.html",
-    "static/css/main.071b106c.chunk.css.map": "/hack-the-northeast-beyond/static/css/main.071b106c.chunk.css.map",
-    "static/js/2.133e88ba.chunk.js.LICENSE.txt": "/hack-the-northeast-beyond/static/js/2.133e88ba.chunk.js.LICENSE.txt"
+    "static/css/main.a2d8f446.chunk.css.map": "/hack-the-northeast-beyond/static/css/main.a2d8f446.chunk.css.map",
+    "static/js/2.2b216fc1.chunk.js.LICENSE.txt": "/hack-the-northeast-beyond/static/js/2.2b216fc1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.99e21fa1.js",
-    "static/js/2.133e88ba.chunk.js",
-    "static/css/main.071b106c.chunk.css",
+    "static/js/2.2b216fc1.chunk.js",
+    "static/css/main.a2d8f446.chunk.css",
     "static/js/main.1a5557c6.chunk.js"
   ]
 }
