@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react"
+import ActivityCard from "./ActivityCard"
+import "./ActivityCard.css"
 
-function App() {
+type Direction = "left" | "right" | "up" | "down"
+interface Props {}
+
+const App: React.FC<Props> = (props) => {
+  const [directions, setDirections] = useState(["right"])
+  const directionChoices = ["left", "right", "up", "down"]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex-container">
+      {directions.map((dir) => (
+        <ActivityCard
+          type={dir}
+          onClick={() => {
+            const random = Math.floor(Math.random() * 4)
+            setDirections(directions.concat(directionChoices[random]))
+          }}
+        />
+      ))}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
